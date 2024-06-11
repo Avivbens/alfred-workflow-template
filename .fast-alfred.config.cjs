@@ -13,7 +13,7 @@ ${homepage}
 module.exports = {
     bundlerOptions: {},
     workflowMetadata: {
-        name: 'Search Bookmarks',
+        name: 'WORKFLOW_NAME',
         // category: 'Internet',
         createdby: author.name,
         webaddress: homepage,
