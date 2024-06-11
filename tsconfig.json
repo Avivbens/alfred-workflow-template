@@ -1,0 +1,40 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": "./",
+        "declaration": true,
+        "declarationMap": true,
+        "emitDecoratorMetadata": true,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "forceConsistentCasingInFileNames": true,
+        "incremental": false,
+        "lib": ["es2017", "es7", "es6", "DOM"],
+        "module": "Node16",
+        "moduleResolution": "Node16",
+        "noFallthroughCasesInSwitch": false,
+        "noImplicitAny": true,
+        "outDir": "./dist",
+        "removeComments": true,
+        "rootDir": "./src",
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "strict": true,
+        "strictBindCallApply": true,
+        "strictNullChecks": true,
+        "strictPropertyInitialization": false,
+        "target": "ES2021",
+        "useUnknownInCatchVariables": false,
+        "paths": {
+            "@common/*": ["src/common/*"],
+            "@models/*": ["src/models/*"],
+            "@services/*": ["src/services/*"]
+        }
+    },
+    "ts-node": {
+        "require": ["tsconfig-paths/register"]
+    },
+    "exclude": ["node_modules", ".eslintrc.cjs"],
+    "include": ["src/**/*"]
+}
