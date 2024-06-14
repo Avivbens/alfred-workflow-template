@@ -37,7 +37,7 @@
         "test": "jest"
     },
     "dependencies": {
-        "fast-alfred": "^2.1.1"
+        "fast-alfred": "^2.1.2"
     },
     "devDependencies": {
         "@commitlint/cli": "^19.3.0",
