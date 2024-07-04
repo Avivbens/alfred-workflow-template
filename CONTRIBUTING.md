@@ -54,6 +54,6 @@ BREAKING CHANGE: <description>
 
 ## Contact
 
-If you have any questions or concerns, please contact us at avivbens87@gmail.com.
+If you have any questions or concerns, please contact us at AUTHOR_EMAIL.
 
 Happy contributing!

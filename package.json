@@ -5,25 +5,22 @@
     "keywords": [
         "alfred",
         "workflow",
-        "bookmark",
-        "chrome",
-        "search",
-        "multi-profile"
+        "TODO"
     ],
-    "homepage": "https://github.com/Avivbens/REPO-NAME",
+    "homepage": "https://github.com/REPO-ORG/REPO-NAME",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Avivbens/REPO-NAME.git"
+        "url": "git+https://github.com/REPO-ORG/REPO-NAME.git"
     },
     "license": "MIT",
     "author": {
-        "name": "Aviv Ben Shahar",
-        "email": "avivbens87@gmail.com"
+        "name": "AUTHOR_NAME",
+        "email": "AUTHOR_EMAIL"
     },
     "maintainers": [
         {
-            "name": "Aviv Ben Shahar",
-            "email": "avivbens87@gmail.com"
+            "name": "AUTHOR_NAME",
+            "email": "AUTHOR_EMAIL"
         }
     ],
     "scripts": {
