@@ -11,7 +11,10 @@ ${homepage}
  * @type {import('fast-alfred').FastAlfredConfig}
  */
 module.exports = {
-    bundlerOptions: {},
+    bundlerOptions: {
+        outputFormat: 'esm', // Change the output format to ESM
+        esmHelpers: true, // Enable compatibility for CommonJS packages - not mandatory, but recommended
+    },
     workflowMetadata: {
         name: 'WORKFLOW_NAME',
         // category: 'Internet',

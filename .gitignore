@@ -3,3 +3,4 @@ dist
 esbuild
 .DS_Store
 .eslintcache
+.vscode
